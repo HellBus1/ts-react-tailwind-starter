@@ -1,5 +1,11 @@
+const NavbarRouteName = {
+  PROFILE: "/profile",
+  HOME: "/",
+  ABOUT: "/about",
+}
+
 const RouteName = {
-  BASE: '/'
+  ...NavbarRouteName
 };
 
-export default RouteName;
+export {NavbarRouteName, RouteName};
