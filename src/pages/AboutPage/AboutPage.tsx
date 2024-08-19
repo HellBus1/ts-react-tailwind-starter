@@ -3,7 +3,7 @@ const AboutPage = () => {
     <div>
       <p>About page</p>
     </div>
-  );
-};
+  )
+}
 
-export default AboutPage;
+export default AboutPage

@@ -1,9 +1,9 @@
-import { RouteObject } from "react-router-dom";
-import HomePage from "@/pages/HomePage/HomePage";
-import ProfilePage from "@/pages/ProfilePage/ProfilePage";
-import Root from "@/pages/Root";
-import AboutPage from "@/pages/AboutPage/AboutPage";
-import {RouteName} from "./constants/RouteName";
+import { RouteObject } from 'react-router-dom'
+import HomePage from '@/pages/HomePage/HomePage'
+import ProfilePage from '@/pages/ProfilePage/ProfilePage'
+import Root from '@/pages/Root'
+import AboutPage from '@/assets/AboutPage'
+import { RouteName } from './constants/RouteName'
 
 export const routes: RouteObject[] = [
   {
@@ -12,16 +12,16 @@ export const routes: RouteObject[] = [
     children: [
       {
         path: RouteName.HOME,
-        element: <HomePage />,
+        element: <HomePage />
       },
       {
         path: RouteName.PROFILE,
-        element: <ProfilePage />,
+        element: <ProfilePage />
       },
       {
         path: RouteName.ABOUT,
-        element: <AboutPage />,
-      },
-    ],
-  },
-];
+        element: <AboutPage />
+      }
+    ]
+  }
+]

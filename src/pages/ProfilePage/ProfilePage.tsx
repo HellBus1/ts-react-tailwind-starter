@@ -3,7 +3,7 @@ const ProfilePage = () => {
     <div>
       <p>Profile page</p>
     </div>
-  );
-};
+  )
+}
 
-export default ProfilePage;
+export default ProfilePage
