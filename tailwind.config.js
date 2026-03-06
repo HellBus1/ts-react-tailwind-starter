@@ -12,7 +12,8 @@ export default {
   daisyui: {
     themes: [
       "nord"
-    ]
+    ],
+    base: false,
   },
 }
 
