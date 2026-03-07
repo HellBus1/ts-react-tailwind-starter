@@ -56,6 +56,10 @@ npm run dev
 npm run build
 ```
 
+## Documentation
+
+For a comprehensive guide on the architecture, authentication flow, and docker deployment, please see the [docs](./docs/README.md) folder.
+
 ## Getting Started
 
 Contributions are welcome! Please open an issue or submit a pull request.
