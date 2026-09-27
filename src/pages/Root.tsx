@@ -6,15 +6,16 @@ import Navbar from '@/components/Navbar/Navbar'
 
 const Root = () => {
   return (
-    <div className='min-h-screen flex flex-col justify-center items-center relative'>
+    <div className='min-h-screen flex flex-col bg-base-100 text-base-content relative'>
       <Navbar />
-      <div className='flex space-x-4 mb-6'>
-        <img src={TailwindCSSLogo} className='w-12' />
-        <img src={ReactLogo} className='w-12' />
-        <img src={ReactRouterLogo} className='w-12' />
-      </div>
-      <h1 className='mb-3'>React Starter Template</h1>
-      <Outlet />
+      <main className='flex-1 flex flex-col justify-center items-center pt-24 pb-12 px-4 w-full max-w-4xl mx-auto text-center'>
+        <div className='flex space-x-4 mb-6'>
+          <img src={TailwindCSSLogo} alt='Tailwind CSS logo' className='w-12 h-12' />
+          <img src={ReactLogo} alt='React logo' className='w-12 h-12' />
+          <img src={ReactRouterLogo} alt='React Router logo' className='w-12 h-12' />
+        </div>
+        <Outlet />
+      </main>
     </div>
   )
 }
