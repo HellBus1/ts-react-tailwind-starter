@@ -1,0 +1,25 @@
+# React TypeScript Tailwind Starter
+> A modern, production-grade template built with React 18, TypeScript, Tailwind CSS, DaisyUI, Vite, and build-time static HTML prerendering for optimal SEO and LLM ingestion.
+
+React TypeScript Tailwind Starter (https://ts-react-tailwind-starter.vercel.app) is an open-source web application foundation designed to solve common Single Page Application (SPA) indexing and crawler visibility challenges without requiring heavy server runtimes.
+
+## Key Architecture & Features
+- **Core Framework**: React 18 with concurrent features and hydration support (`hydrateRoot`).
+- **Language**: TypeScript with strict mode enabled.
+- **Styling**: Tailwind CSS v3 and DaisyUI v4 component library with customizable themes.
+- **Build System**: Vite with `@vitejs/plugin-react-swc` for sub-second development builds.
+- **Routing**: React Router 7 declarative routing with nested layout architecture.
+- **SEO Engine**: Dynamic meta tag management via `useSEO` hook, canonical URL enforcement, Open Graph and Twitter Card generation, Schema.org JSON-LD structured data.
+- **Prerender Pipeline**: Build-time static HTML generation for all declared routes (`npm run build:prerender`), enabling complete HTML content delivery to crawlers, search engines, and AI agents.
+- **Bot Optimization**: AI-friendly `robots.txt` granting explicit crawler permissions (GPTBot, ClaudeBot, PerplexityBot, Google-Extended).
+
+## Application Routes
+- `/`: Home page with template highlights and overview.
+- `/about`: Architecture details and tech stack documentation.
+- `/profile`: User settings and session overview.
+
+## Documentation & Codebase
+- Repository: https://github.com/HellBus1/ts-react-tailwind-starter
+- Setup Guides: See `/docs/guides/` for SEO and prerendering guides.
+- Reference: See `/docs/reference/` for hook APIs and configuration reference.
+- ADRs: See `/docs/decisions/` for architectural decision records.
